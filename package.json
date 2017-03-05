@@ -1,0 +1,26 @@
+{
+  "name": "mean-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zravenholt/MEAN-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zravenholt/MEAN-practice/issues"
+  },
+  "homepage": "https://github.com/zravenholt/MEAN-practice#readme",
+  "dependencies": {
+    "express": "^4.15.0",
+    "mongodb": "^2.2.24",
+    "mongoose": "^4.8.6",
+    "nodemon": "^1.11.0"
+  }
+}
