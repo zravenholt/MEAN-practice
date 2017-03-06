@@ -1,10 +1,15 @@
 <div ng-app='app.calendar'>
   <div ng-controller='CalendarController' ng-init='init()'>
+    <form>
+      Task: <input ng-model='task' ></input>
+      Day: <input ng-model='day'></input>
+      Time: <input ng-model='time'></input>
+      <button ng-click='addTask(task, day, time)'>Add the task to the list</button>
+    </form>
     <ul ng-repeat='todo in todos'>
         <div>{{todo.task}}</div>
         <div>{{todo.day}}</div>
         <div>{{todo.time}}</div>
-        <div>{{todo.complete}}</div>
     </ul>
 
 
