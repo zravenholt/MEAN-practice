@@ -1,0 +1,12 @@
+<div ng-app='app.calendar'>
+  <div ng-controller='CalendarController' ng-init='init()'>
+    <ul ng-repeat='todo in todos'>
+        <div>{{todo.task}}</div>
+        <div>{{todo.day}}</div>
+        <div>{{todo.time}}</div>
+        <div>{{todo.complete}}</div>
+    </ul>
+
+
+  </div>
+</div>

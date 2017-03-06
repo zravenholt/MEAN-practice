@@ -2,13 +2,20 @@
 
 <html>
   <head>
-
+    <title>Week Planner </title>
 
   </head>
 
-  <body>
+  <body ng-app='app'>
+    <h1>Week Planner</h1>
+    <h2>Use this planner to help set up your week</h2>
+    <div ng-view></div>
 
 
-    <script src='https://opensource.keycdn.com/angularjs/1.6.2/angular.min.js '/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js"></script>
+    <script src="/app/services/services.js"></script>
+    <script src="/app/calendar/calendar.js"></script>
+    <script src='/app/app.js'></script>
   </body>
 </html>
